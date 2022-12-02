@@ -113,5 +113,34 @@ nav .imgLogo {
 }
 
 .copoComTexto p {
-    padding: 0 15px
+    padding: 0 15px;
+    margin-bottom: 25px;
+    
+}
+
+.copoComTexto .buttonCopo {
+    text-decoration: unset;
+    border: 1px solid #32312d;
+    background-color: #32312d;
+    color: #fff;
+    border-radius: 25px;
+    padding: 12px 20px;
+    margin: 0px 0px 0px 15px;
+}
+
+.imgSR {
+    background-image: url(./img/background.png);
+    visibility: hidden;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imgSR img {
+    max-width: 300px;
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    margin: 15px;
 }
