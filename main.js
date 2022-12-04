@@ -1,15 +1,15 @@
 //SCROLL REVEAL
 window.sr = ScrollReveal({reset: true});
-sr.reveal('.imgSR', {duration: 3000});
+sr.reveal('#imgSR', {duration: 3000});
 //ACABA O SCROLL REVEAL
 
-function menuShow() {
-    let menuMobile = document.querySelector('.btn');
-    if (menuMobile.classList.contains('open')) {
-        menuMobile.classList.remove('open');
-        document.querySelector('.icon').src = "./img/menu.png";
-    } else {
-        menuMobile.classList.add('open');
-        document.querySelector('.icon').src = "./img/menu.png";
-    }
-}
+// function menuShow() {
+//     let menuMobile = document.querySelector('#menuDesk');
+//     if (menuMobile.classList.contains('open')) {
+//         menuMobile.classList.remove('open');
+//         document.querySelector('.icon').src = "./img/menu.png";
+//     } else {
+//         menuMobile.classList.add('open');
+//         document.querySelector('.icon').src = "./img/menu.png";
+//     }
+// }
