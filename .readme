@@ -1,0 +1,64 @@
+/* formatação do onshow no media */
+
+/* @media screen and (max-width: 980px) {
+
+.login-button {
+display: none;
+}
+
+.mobile-menu-icon {
+display: block;
+}
+
+.mobile-menu-icon button {
+background-color: transparent;
+border: none;
+cursor: pointer;
+}
+.mobile-menu .nav-item {
+display: block;
+padding-top: 1.2rem;
+}
+
+.mobile-menu .login-button {
+display: block;
+padding: 1rem 2rem;
+}
+
+.mobile-menu .login-button button {
+width: 50px;
+}
+
+.open {
+display: block;
+}
+
+.mobile-menu-icon img {
+width: 50px;
+}
+
+} */
+
+/* formatação do onshow no media */
+
+/* formatação no css normal do onshow */
+
+/* .mobile-menu-icon {
+    display: none;
+    }
+    
+    .mobile-menu {
+    display: none;
+    } */
+
+/* formatação no css normal do onshow */
+
+/* div criada dentro da mesma section do html menu desktop */
+
+/* <div class="mobile-menu-icon">
+<button onclick="menuShow()">
+<img class="icon" src="/SRC/IMG/menu.png" alt="">
+</button>
+</div> */
+
+/* div criada dentro da mesma section do html menu desktop */
