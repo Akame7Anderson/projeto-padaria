@@ -26,11 +26,11 @@
         <section class="container">
             <img class="imgLogo" src="./img/logo.png" alt="">
             <div class="dropdown">
+
                 <a class="btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     <img class=".icon" src="./img/menu.png" alt="">
                 </a>
-
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                     <li><a class="dropdown-item" id="home" href="#">Home</a></li>
                     <li><a class="dropdown-item" href="#">A Padaria</a></li>
@@ -46,16 +46,18 @@
                     </ul>
                 </ul>
             </div>
+
+
         </section>
 
         <section class="containerDesk">
             <img class="imgLogoDesk" src="./img/logo.png" alt="">
             <div class="menuDesktop">
-                    <a href="#">A Padaria</a>
-                    <a href="#">Nossas Lojas</a>
-                    <a href="#">Peça Via iFood</a>
-                    <a href="#">Fale Conosco</a>
-                    <a href="#">Encomendas</a>
+                <a href="#">A Padaria</a>
+                <a href="#">Nossas Lojas</a>
+                <a href="#">Peça Via iFood</a>
+                <a href="#">Fale Conosco</a>
+                <a href="#">Encomendas</a>
                 <img class="imgLogoDesktop" src="./img/logoDesktop.png" alt="">
             </div>
             <div class="mobile-menu-icon">
@@ -82,22 +84,23 @@
             <h1>
                 Presente no seu dia a dia
             </h1>
-            <p>É com cheiro de pão quentinho que te damos as boas-vindtodas as manhãs. Preparamos com paixão cada
-                uma de nossas receitas para levar até você os sabores que valimentar a sua alma na hora do
-                almoço, do lanche, do jantar e sempre que bater aquevontade de sentir um doce gostoso
-                desmanchando na boca. Aqui na Benjamin, você transformomentos do seu dia em experiências
-                memoráveis. Venha aproveitar momentos deliciosos comgente!</p>
+            <p>É com cheiro de pão quentinho que te damos as boas-vindas todas as manhãs. Preparamos com paixão cada uma
+                de nossas receitas para levar até você os sabores que valimentar a sua alma na hora do almoço, do
+                lanche, do jantar e sempre que bater aquela vontade de sentir um doce gostoso desmanchando na boca. Aqui
+                na Benjamin, você transforma momentos do seu dia em experiências memoráveis. Venha aproveitar momentos
+                deliciosos a gente!</p>
             <a class="buttonCopo" href="">#TimePadaria</a>
         </section>
         <section class="scrollReveal">
             <h1>Algumas Delicias <br> #TimePadaria</h1>
             <div id="imgSR">
-                <img class="img-fluid" src="./img/paozinhoTeste.jpg" alt="">
-                <img class="img-fluid" src="./img/paozinhoDois.jpg" alt="">
+                <img class="img-fluid" id="srUm" src="./img/paozinhoTeste.jpg" alt="">
+                <img class="img-fluid" id="srDois" src="./img/paozinhoDois.jpg" alt="">
+                <img class="img-fluid" id="srTres" src="./img/boloUm.jpeg" alt="">
             </div>
         </section>
         <div class="imgLogoDois" style="margin: 20px 0px;">
-            <img class="img-fluid" src="img/imgLogoDois.png" alt="">
+            <img class="img-fluid" src="./img/imgLogoDois.png" alt="">
         </div>
         <section class="kitPadaria">
             <img style="padding: 20px;max-width: 600px;width: 100%;" src="./img/kitPadaria.webp" alt="">
@@ -107,9 +110,38 @@
             <p>Para cada momento do seu dia, tem sempre uma delícia da Benjamin esperando por você. Seja para o lanche
                 da tarde, a festinha da firma ou as comemorações da família. Encontros inesquecíveis merecem sabores de
                 verdade!</p>
-            <span>Encomende Agora <img src="img/seta-direita-reta.png" alt=""></span>
+            <a href="#">Encomende Agora ➡</a>
         </section>
     </main>
+
+    <footer>
+        <img class="imgTopo" src="./img/logo.png" alt="">
+        <section class="footerSection">
+            <div class="divFooterInstitucional">
+                <h2>Institucional</h2>
+                <a href="">A Padaria</a>
+                <a href="">Nossas Lojas</a>
+                <a href="">Fale Conosco</a>
+                <a href="">Trabalhe Conosco</a>
+            </div>
+            <div class="footerIfood">
+                <h1>Peça Já</h1>
+                <img class="img-fluid" src="./img/ifood-marca.png" alt="">
+            </div>
+            <div class="footerRedes">
+                <h2>Redes Sociais</h2>
+                <div>
+                    <img class="img-fluid" src="./img/facebook.png" alt="">
+                    <img class="img-fluid" src="./img/instagram.png" alt="">
+                    <img class="img-fluid" src="./img/in.png" alt="">
+                </div>
+            </div>
+        </section>
+        <div class="divCopyright">
+            <p>Copyright © 2022 Benjamin Padaria . Todos os direitos reservados . Política de privacidade</p>
+            <img src="img/logotipo-j1-studio-negativo.png" alt="">
+        </div>
+    </footer>
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -135,6 +167,7 @@
         });
     </script>
     <script src="main.js"></script>
+    <script src="sr.js"></script>
 </body>
 
 </html>

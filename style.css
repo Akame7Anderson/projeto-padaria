@@ -8,6 +8,10 @@ ul li {
     display: flex;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -36,8 +40,9 @@ header {
 }
 
 .dropdown-menu {
-    background-color: black;
-    height: unset;
+    background-color: rgb(0, 0, 0);
+    transform: translate(-332px, 41px) !important;
+    padding: 125px;
 }
 
 .dropdown-menu #home {
@@ -53,14 +58,14 @@ header {
 
 .dropdown-menu a {
     color: #fff;
-    font-weight: 700;
+    font-weight: bold;
+    padding-bottom: 20px;
 }
 
 .dropdown .imagens {
     display: flex;
     height: 40px;
     padding-left: 0;
-
 }
 
 .dropdown .imagens img {
@@ -92,7 +97,6 @@ header {
 
 .containerDesk .menuDesktop a {
     color: #dec2a4;
-    text-decoration: none;
     text-transform: uppercase;
 }
 
@@ -160,7 +164,6 @@ header {
 }
 
 .copoComTexto .buttonCopo {
-    text-decoration: unset;
     border: 1px solid #32312d;
     background-color: #32312d;
     color: #fff;
@@ -195,6 +198,7 @@ header {
     height: 300px;
     padding: 10px;
     margin: 15px;
+    border-radius: 50px;
 }
 
 .imgLogoDois {
@@ -213,17 +217,110 @@ p {
     padding: 0px 20px;
 }
 
+.kitPadaria a {
+    text-decoration: inherit;
+    border: 1px solid #32312d;
+    background-color: #32312d;
+    border-radius: 25px;
+    padding: 8px 20px;
+    margin: 0px 0px 0px 15px;
+    color: #fae5ce;
+}
+
+
+/* FOOTER DA PAGINA */
+
+footer {
+    background-color: #32312d;
+}
+
+footer h2,
+a,
+h1,
+p {
+    color: #dec2a4;
+}
+
+footer .imgTopo {
+    margin: 30px 0;
+    margin-left: 20px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #dec2a4;
+}
+
+footer .footerSection {
+    margin: 0px 20px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #dec2a4;
+}
+
+.footerSection .divFooterInstitucional {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+}
+
+.footerSection .footerIfood {
+    margin: 60px 0;
+}
+
+.footerSection .footerRedes img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.divCopyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divCopyright p {
+    text-align: center;
+    font-size: 12px;
+}
+
+/* ACABA O FOOTER DA PAGINA */
 @media (min-width: 1024px) {
     .containerDesk {
         display: flex;
         width: 100%;
         justify-content: space-around;
     }
+
     .container {
         display: none;
     }
 
     .swiper {
         background-color: #303830;
+    }
+
+    .footerSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .divCopyright {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .divCopyright img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .dropdown-menu {
+        background-color: rgb(0, 0, 0);
+        transform: translate(25px, 40px) !important;
+        padding: 125px;
     }
 }
