@@ -323,4 +323,15 @@ footer .footerSection {
         transform: translate(25px, 40px) !important;
         padding: 125px;
     }
+
+    .banners {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 1440px) {
+    
 }
