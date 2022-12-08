@@ -91,7 +91,7 @@ header {
 .containerDesk .menuDesktop {
     display: flex;
     align-items: center;
-    width: 800px;
+    width: 808px;
     justify-content: space-around;
 }
 
@@ -172,6 +172,10 @@ header {
     margin: 0px 0px 0px 15px;
 }
 
+.divSRCopoComTexto {
+    visibility: hidden;
+}
+
 .scrollReveal h1 {
     color: #ec6950;
     font-weight: 400px;
@@ -212,7 +216,8 @@ header {
 }
 
 .kitPadaria h1,
-p {
+p,
+a {
     color: #fae5ce;
     padding: 0px 20px;
 }
@@ -224,7 +229,6 @@ p {
     border-radius: 25px;
     padding: 8px 20px;
     margin: 0px 0px 0px 15px;
-    color: #fae5ce;
 }
 
 
@@ -236,8 +240,7 @@ footer {
 
 footer h2,
 a,
-h1,
-p {
+h1 {
     color: #dec2a4;
 }
 
@@ -245,13 +248,13 @@ footer .imgTopo {
     margin: 30px 0;
     margin-left: 20px;
     padding-bottom: 40px;
-    border-bottom: 1px solid #dec2a4;
 }
 
 footer .footerSection {
     margin: 0px 20px;
     padding-bottom: 50px;
     border-bottom: 1px solid #dec2a4;
+    border-top: 1px solid #dec2a4;
 }
 
 .footerSection .divFooterInstitucional {
@@ -280,6 +283,7 @@ footer .footerSection {
 .divCopyright p {
     text-align: center;
     font-size: 12px;
+    color: #dec2a4;
 }
 
 /* ACABA O FOOTER DA PAGINA */
@@ -311,10 +315,6 @@ footer .footerSection {
         align-items: center;
     }
 
-    .divCopyright img {
-        width: 40px;
-        height: 40px;
-    }
 }
 
 @media (min-width: 768px) {
@@ -333,5 +333,32 @@ footer .footerSection {
 }
 
 @media (min-width: 1440px) {
-    
+    .copoComTexto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .copoComTexto img {
+        width: 40%;
+    }
+    .divCopoComTexto {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 50%;
+    }
+    .divCopoComTexto p {
+        width: 60%;
+    }
+    .kitPadaria {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .divKitPadaria {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 40%;
+    }
 }
